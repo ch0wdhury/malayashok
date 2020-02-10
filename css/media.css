@@ -48,6 +48,9 @@
 		margin-top: -10px;
 		width: 55%;
 	}
+	.left_padding {
+		padding-top: 5px;
+	}
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -76,6 +79,9 @@
 @media (min-width: 1200px) {
 	audio {
 		width: 45%;
+	}
+	.left_padding {
+		padding-top: 10px;
 	}
 	.image_container_left img:first-child {
 		width: 55%;
