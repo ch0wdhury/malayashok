@@ -9,141 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <title>Malay Ashok</title>
     <style>
-    	* {
-			margin: 0;
-			padding: 0;
-		}
-		html, body {
-			overflow-x: hidden;
-			margin: 0;
-			padding: 0;
-		}
-		body {
-			background-color: #000000;
-		}
-		.image_container_left {
-			text-align: right;
-		}
-		.image_container_right {
-			margin-top: 14px;
-		}
-		.left_padding {
-			padding-top: 4px;
-			margin-right: 10px;
-		}
-		audio {
-			margin-bottom: -5px;
-			width: 55%;
-		}
-		.image_container_left img:first-child {
-			width: 45%;
-			float: left;
-			margin-top: 15px;
-		}
-		.image_container hr {
-			width: 100%;
-			border: 1px solid #E3931B;
-			margin: 0 auto;
-			margin-bottom: 5px;
-		}
-
-		/* Extra small devices (portrait phones, less than 576px) */
-		@media (max-width: 575.98px) {
-			header {
-				padding-top: 0px;
-				margin-top: 0px;
-			}
-			.image_container_right {
-				margin-top: 20px;
-			}
-			.image_container_left img:first-child {
-				width: 50%;
-				float: left;
-				margin-top: 28px;
-			}
-			audio {
-				padding-top: 30px;
-				margin-bottom: -5px;
-				margin-top: -10px;
-				width: 50%;
-			}
-		}
-		/* Small devices (landscape phones, 576px and up) */
-		@media (min-width: 576px) and (max-width: 767.98px) {
-			.image_container_right {
-				margin-top: 20px;
-			}
-			.image_container_left img:first-child {
-				width: 45%;
-				float: left;
-				margin-top: 22px;
-			}
-			audio {
-				padding-top: 15px;
-				margin-bottom: -5px;
-				margin-top: -10px;
-				width: 50%;
-			}
-		}
-		/* Medium devices (tablets, 768px and up) */
-		@media (min-width: 768px) and (max-width: 991.98px) {
-			.image_container_right {
-				margin-top: 20px;
-			}
-			.image_container_left img:first-child {
-				width: 45%;
-				float: left;
-				margin-top: 22px;
-			}
-			audio {
-				padding-top: 20px;
-				margin-bottom: -5px;
-				margin-top: -10px;
-				width: 55%;
-			}
-			.left_padding {
-				padding-top: 5px;
-			}
-		}
-		/* Large devices (desktops, 992px and up) */
-		@media (min-width: 992px) and (max-width: 1199.98px) {
-			.image_container_left {
-				text-align: right;
-			}
-			.image_container_right {
-				margin-top: 18px;
-			}
-			.left_padding {
-				margin-right: 10px;
-			}
-			audio {
-				padding-top: 10px;
-				margin-bottom: -5px;
-				width: 55%;
-			}
-			.image_container_left img:first-child {
-				width: 45%;
-				float: left;
-				margin-top: 15px;
-			}
-		}
-
-		/* Extra large devices (large desktops, 1200px and up) */
-		@media (min-width: 1200px) {
-			audio {
-				width: 45%;
-			}
-			.left_padding {
-				padding-top: 10px;
-			}
-			.image_container_left img:first-child {
-				width: 55%;
-				padding-left: 100px;
-			}
-			.image_container hr {
-				width: 98%;
-			}
-		}
+    	*{margin:0;padding:0}body,html{overflow-x:hidden;margin:0;padding:0}body{background-color:#000}.image_container_left{text-align:right}.image_container_right{margin-top:14px}.left_padding{padding-top:4px;margin-right:10px}audio{margin-bottom:-5px;width:55%}.image_container_left img:first-child{width:45%;float:left;margin-top:15px}.image_container hr{width:100%;border:1px solid #e3931b;margin:0 auto;margin-bottom:5px}@media (max-width:575.98px){header{padding-top:0;margin-top:0}.image_container_right{margin-top:20px}.image_container_left img:first-child{width:50%;float:left;margin-top:28px}audio{padding-top:30px;margin-bottom:-5px;margin-top:-10px;width:50%}}@media (min-width:576px) and (max-width:767.98px){.image_container_right{margin-top:20px}.image_container_left img:first-child{width:45%;float:left;margin-top:22px}audio{padding-top:15px;margin-bottom:-5px;margin-top:-10px;width:50%}}@media (min-width:768px) and (max-width:991.98px){.image_container_right{margin-top:20px}.image_container_left img:first-child{width:45%;float:left;margin-top:22px}audio{padding-top:20px;margin-bottom:-5px;margin-top:-10px;width:55%}.left_padding{padding-top:5px}}@media (min-width:992px) and (max-width:1199.98px){.image_container_left{text-align:right}.image_container_right{margin-top:18px}.left_padding{margin-right:10px}audio{padding-top:10px;margin-bottom:-5px;width:55%}.image_container_left img:first-child{width:45%;float:left;margin-top:15px}}@media (min-width:1200px){audio{width:45%}.left_padding{padding-top:10px}.image_container_left img:first-child{width:55%;padding-left:100px}.image_container hr{width:98%}}
     </style>
   </head>
   <body>
@@ -152,19 +18,19 @@
     		<div class="row no-gutters">
     			<div class="col-xl-6 col">
     				<div class="image_container_left">
-    					<img src="images/malayashok_01.jpg" alt="img" class="img-fluid" width="100%" height="100%">
+    					<img src="images/malayashok_01.jpg" alt="img" class="img-fluid">
     					<audio controls>
 						  <source src="horse.ogg" type="audio/ogg">
 						  <source src="horse.mp3" type="audio/mpeg">
 							Your browser does not support the audio element.
 						</audio>
-						<img src="images/malayashok_04.png" alt="img" class="img-fluid left_padding" width="100%" height="100%">
+						<img src="images/malayashok_04.png" alt="img" class="img-fluid left_padding">
     				</div>
     			</div>
     			<div class="col-xl-6 col my-auto">
     				<div class="image_container_right">
-    					<img src="images/malayashok_03_1.jpg" alt="img" class="img-fluid" width="100%" height="100%">
-    					<img src="images/malayashok_03_2.png" alt="img" class="img-fluid" width="100%" height="100%">
+    					<img src="images/malayashok_03_1.jpg" alt="img" class="img-fluid">
+    					<img src="images/malayashok_03_2.png" alt="img" class="img-fluid">
     				</div>
     			</div>
     		</div>
@@ -172,18 +38,18 @@
     			<div class="col text-center">
     				<div class="image_container">
     					<hr>
-						<img src="images/malayashok_05.jpg" alt="img" class="img-fluid" width="100%" height="100%">
-						<img src="images/malayashok_06.jpg" alt="img" class="img-fluid" width="100%" height="100%">
-						<img src="images/malayashok_07.jpg" alt="img" class="img-fluid" width="100%" height="100%">
-						<img src="images/malayashok_08.png" alt="img" class="img-fluid" width="100%" height="100%">
-						<img src="images/malayashok_09.png" alt="img" class="img-fluid" width="100%" height="100%">
-						<img src="images/malayashok_10.png" alt="img" class="img-fluid" width="100%" height="100%">
-						<img src="images/malayashok_11.png" alt="img" class="img-fluid" width="100%" height="100%">
-						<img src="images/malayashok_12.png" alt="img" class="img-fluid" width="100%" height="100%">
-						<img src="images/malayashok_13.png" alt="img" class="img-fluid" width="100%" height="100%">
-						<img src="images/malayashok_14.png" alt="img" class="img-fluid" width="100%" height="100%">
-						<img src="images/malayashok_15.png" alt="img" class="img-fluid" width="100%" height="100%">
-						<img src="images/malayashok_16.png" alt="img" class="img-fluid" width="100%" height="100%">
+						<img src="images/malayashok_05.jpg" alt="img" class="img-fluid">
+						<img src="images/malayashok_06.jpg" alt="img" class="img-fluid">
+						<img src="images/malayashok_07.jpg" alt="img" class="img-fluid">
+						<img src="images/malayashok_08.png" alt="img" class="img-fluid">
+						<img src="images/malayashok_09.png" alt="img" class="img-fluid">
+						<img src="images/malayashok_10.png" alt="img" class="img-fluid">
+						<img src="images/malayashok_11.png" alt="img" class="img-fluid">
+						<img src="images/malayashok_12.png" alt="img" class="img-fluid">
+						<img src="images/malayashok_13.png" alt="img" class="img-fluid">
+						<img src="images/malayashok_14.png" alt="img" class="img-fluid">
+						<img src="images/malayashok_15.png" alt="img" class="img-fluid">
+						<img src="images/malayashok_16.png" alt="img" class="img-fluid">
     				</div>
     			</div>
     		</div>
