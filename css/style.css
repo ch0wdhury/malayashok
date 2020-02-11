@@ -29,3 +29,9 @@ audio {
 	float: left;
 	margin-top: 15px;
 }
+.image_container hr {
+	width: 100%;
+	border: 1px solid #E3931B;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}

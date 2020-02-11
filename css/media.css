@@ -87,4 +87,7 @@
 		width: 55%;
 		padding-left: 100px;
 	}
+	.image_container hr {
+		width: 92%;
+	}
 }
